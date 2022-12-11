@@ -1,0 +1,29 @@
+{
+  "name": "dva-example-count",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "antd": "3.3.0",
+    "axios": "1.2.1",
+    "debug": "^4.3.4",
+    "dva": "2.0.1",
+    "events": "^3.3.0",
+    "http": "^0.0.0",
+    "https": "^1.0.0",
+    "jquery": "3.6.1",
+    "lodash": "4.17.5",
+    "mockjs": "1.1.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "zlib": "^1.0.5"
+  },
+  "scripts": {
+    "start": "PORT=3000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
